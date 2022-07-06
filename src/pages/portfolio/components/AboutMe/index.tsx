@@ -50,7 +50,7 @@ const AboutMe = React.forwardRef<HTMLDivElement, AboutProps>((props, ref) => {
             <span className={styles.withColor}>이지송</span>,
             `입니다.`,
             <br />,
-            `개발자로 일한지 햇수로 5년이 지나는 과정 속에서 `,
+            `개발자로 일한지 햇수로 6년이 지나는 과정 속에서 `,
             <span className={styles.codeBlock}>비즈니스 로직 설계 및 구현</span>,
             ', ',
             <span className={styles.codeBlock}>데이터베이스 설계</span>,

@@ -3,9 +3,9 @@ import { NavEnum } from '../../data';
 import { SkillItem, SkillSet, SkillProficiency } from './model';
 import styles from './style.module.less';
 import { Scala, Typescript, Javascript, Kotlin, Python, Bash } from './components/Language';
-import { Akka, ReactJS, NodeJS, Spring } from './components/Framework';
+import { Akka, ReactJS, NodeJS, Spring, VueJS } from './components/Framework';
 import { Oracle, Mysql } from './components/Database';
-import { Git, Docker, Kubernetes } from './components/OtherSkill';
+import { Git, Docker, Kubernetes, Jenkins } from './components/OtherSkill';
 
 const skillSets: SkillSet[] = [
   {
@@ -15,36 +15,24 @@ const skillSets: SkillSet[] = [
         title: 'Scala',
         imageNode: <Scala id="scala" />,
         proficiency: SkillProficiency.Familiar,
-        tags: ['#가장_자신있는_언어!'],
+        tags: ['#만_4년을_함께'],
       },
       {
         title: 'Typescript',
         imageNode: <Typescript id="typescript" />,
         proficiency: SkillProficiency.Familiar,
-        tags: ['#클라이언트는_TS와_함께'],
+        tags: ['#JS보다_TS_선호'],
       },
       {
         title: 'Javascript',
         imageNode: <Javascript id="javascript" />,
         proficiency: SkillProficiency.Familiar,
-        tags: ['#요즘에는_가능하면_TS_사용해요'],
-      },
-      {
-        title: 'Kotlin',
-        imageNode: <Kotlin id="kotlin" />,
-        proficiency: SkillProficiency.Tried,
-        tags: ['#요즘_공부중인_언어', '#Java_대신_Kotlin이_출동한다면?'],
-      },
-      {
-        title: 'Python',
-        imageNode: <Python id="python" />,
-        proficiency: SkillProficiency.Tried,
-        tags: ['#머신러닝_공부할때_사용해요'],
+        tags: ['#현재_주_언어'],
       },
       {
         title: 'Bash',
         imageNode: <Bash id="bash" />,
-        proficiency: SkillProficiency.Tried,
+        proficiency: SkillProficiency.Familiar,
         tags: ['#쉘스크립트_작성_가능'],
       },
     ],
@@ -56,29 +44,28 @@ const skillSets: SkillSet[] = [
         title: 'Akka',
         imageNode: <Akka id="akka" />,
         proficiency: SkillProficiency.Familiar,
-        tags: ['#Scala_Akka_조합은_사랑'],
+        tags: ['#Scala_Akka_조합'],
       },
       {
         title: 'React',
         imageNode: <ReactJS id="reactjs" />,
         proficiency: SkillProficiency.Familiar,
-        tags: ['#클라이언트_개발할때_주로_사용해요'],
+        tags: [],
       },
       {
         title: 'Node.js',
         imageNode: <NodeJS id="nodejs" />,
         proficiency: SkillProficiency.Familiar,
-        tags: ['#JS개발자에겐_기본'],
+        tags: [],
       },
       {
-        title: 'Spring',
-        imageNode: <Spring id="spring" />,
-        proficiency: SkillProficiency.Tried,
-        tags: ['#Kotlin과_함께'],
+        title: 'Vue',
+        imageNode: <VueJS id="spring" />,
+        proficiency: SkillProficiency.Familiar,
+        tags: [],
       },
     ],
   },
-  /*
   {
     title: 'Database',
     items: [
@@ -92,7 +79,6 @@ const skillSets: SkillSet[] = [
       },
     ],
   },
-  */
   {
     title: 'etc',
     items: [
@@ -100,19 +86,25 @@ const skillSets: SkillSet[] = [
         title: 'Git',
         imageNode: <Git id="git" />,
         proficiency: SkillProficiency.Familiar,
-        tags: ['#개발자라면_git은_기본'],
+        tags: [],
       },
       {
         title: 'Docker',
         imageNode: <Docker id="docker" />,
-        proficiency: SkillProficiency.Tried,
-        tags: ['#이미지_빌드_가능'],
+        proficiency: SkillProficiency.Familiar,
+        tags: [],
       },
       {
         title: 'Kubernetes',
         imageNode: <Kubernetes id="kubernetes" />,
-        proficiency: SkillProficiency.Tried,
-        tags: ['#오브젝트_생성_및_관리_가능'],
+        proficiency: SkillProficiency.Familiar,
+        tags: [],
+      },
+      {
+        title: 'Jenkins',
+        imageNode: <Jenkins id="jenkins" />,
+        proficiency: SkillProficiency.Familiar,
+        tags: [],
       },
     ],
   },

@@ -56,7 +56,26 @@ const Experience = React.forwardRef<HTMLDivElement, ExperienceProps>((props, ref
 
   const contentList: ExperienceContent[] = [
     {
-      datePeriod: 'February 2017 – Current',
+      datePeriod: 'April 2021 – Current',
+      title: '팀블라인드',
+      subTitle: '서버 개발자',
+      desc: [
+        '팀블라인드에서 운영하는 서비스 서버 개발을 담당했습니다.',
+        'Node.js, Express 기반으로 한 백엔드 개발과',
+        'Vue 프레임워크를 적용한 웹페이지 및 어드민 개발 업무를 수행했습니다.',
+        '이외에도 젠킨스를 활용한 CI/CD 자동화도 경험했습니다.',
+      ].join(' '),
+      projects: [
+        {
+          title: '온라인 취미 클래스 서비스 서버 개발',
+        },
+        {
+          title: '데이팅앱 서비스 서버 개발',
+        },
+      ],
+    },
+    {
+      datePeriod: 'February 2017 – April 2021',
       title: '유엔젤',
       subTitle: 'CBS개발부 / 대리',
       desc: [

@@ -13,3 +13,7 @@ export const Docker: React.FC<SkillIconProps> = (props) => {
 export const Kubernetes: React.FC<SkillIconProps> = (props) => {
   return <SkillIcon imageClassName={styles.kubernetes} {...props} />;
 };
+
+export const Jenkins: React.FC<SkillIconProps> = (props) => {
+  return <SkillIcon imageClassName={styles.jenkins} {...props} />;
+};

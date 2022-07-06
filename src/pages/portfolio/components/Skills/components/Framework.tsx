@@ -17,3 +17,7 @@ export const NodeJS: React.FC<SkillIconProps> = (props) => {
 export const Spring: React.FC<SkillIconProps> = (props) => {
   return <SkillIcon imageClassName={styles.spring} {...props} />;
 };
+
+export const VueJS: React.FC<SkillIconProps> = (props) => {
+  return <SkillIcon imageClassName={styles.vuejs} {...props} />;
+};
